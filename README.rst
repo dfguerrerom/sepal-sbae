@@ -6,7 +6,7 @@
 SEPAL Sample Based Area Estimator
 ---------------------------------
 
-.. image:: https://raw.githubusercontent.com/dfguerrerom/sepal-sbae/blob/master/doc/img/intro.PNG
+.. image:: https://raw.githubusercontent.com/sepal-contrib/sepal-sbae/master/doc/img/intro.PNG
    :align: center
 
 Sampling desing
@@ -19,7 +19,7 @@ Depending on the input design (random/systematic) and on the grid size, this cal
 .. note::
     if you experience "out of memory" errors, it means that the computation couldn't be completed on-the-fly. In that case, the computation can be triggered as Google Earth Engine task as GEE Asset or sent to Google Drive.
     
-.. image:: https://raw.githubusercontent.com/dfguerrerom/sepal-sbae/blob/master/doc/img/systematic_sample.PNG
+.. image:: https://raw.githubusercontent.com/systematic_sample.PNG
    :align: center
 
 
@@ -34,5 +34,5 @@ This simulation is then repeated several times varying the cell size and capturi
 To perform the sample area based estimation from a categorical image, select the type of design and the grid shape within the :code:`design` tab. Then click on the SBAE tab and select your categorical asset.
 
 
-.. image:: https://raw.githubusercontent.com/dfguerrerom/sepal-sbae/blob/master/doc/img/sbae_graph_sample.PNG
+.. image:: https://raw.githubusercontent.com/sepal-contrib/sepal-sbae/master/doc/img/sbae_graph_sample
    :align: center

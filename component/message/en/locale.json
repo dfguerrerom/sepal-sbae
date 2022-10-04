@@ -1,0 +1,87 @@
+{
+    "app" : {
+        "name" : "Sampled based area estimation"
+    },
+    "map" : {
+        "name" : "map"
+    },
+    "panel" : {
+        "name" : "Settings",
+        "tabs" : {
+            "aoi" : "Area of Interest",
+            "design" : "Design",
+            "sbae": "SBAE"
+        }
+    },
+    "export" : {
+        "title" : "Export results",
+        "output" : {
+            "label" : "File name"
+        },
+        "method" : {
+            "label" : "Method:",
+            "csv" : "as CSV",
+            "gpkg" : "as Geopackage",
+            "shp" : "as ESRI Shapefile",
+            "asset" : "as GEE Asset",
+            "gdrive" : "to Google Drive"
+        },
+        "fileformat" : {
+            "label" : "GEE format"
+        },
+        "success_msg" : {
+            "asset" : "Exportation {} with task id {} successfully sent to GEE.",
+            "local" : "Exportation {} complete."
+        },
+        "btn" : "Export results",
+        "save" : "Save",
+        "cancel" : "Cancel"
+    },
+    "design" : {
+        "method" : {
+            "label" : "Type of design", 
+            "systematic" : "Systematic",
+            "rand_syst" : "Random systematic",
+            "random" : "Purely random",
+            "strat_random" : "Stratifed random"
+        },
+        "shape" : {
+            "label" : "Grid size",
+            "square" : "Square",
+            "triangle" : "Triangle",
+            "hexagon" : "Hexagon"
+        },
+        "size" : {
+            "label" : "Grid size (m)"
+        },
+        "npoints" : {
+            "label" : "Number of points"
+        }
+    },
+    "results" : {
+        "title" : "Sample results",
+        "description" : "The sample results will be shown up after running the sample design in the settings panel.",
+        "size" : "Grid size:",
+        "shape" : "Grid shape:",
+        "seed" : "Random seed used:",
+        "n_points" : "Total points:"
+    },
+    "sbae" : {
+        "title" : "SBAE results",
+        "description" : "The SBAE results will be shown up after running the SBAE analysis in the settings panel.",
+        "classes" : {
+            "label" : "Select class"
+        },
+        "button" : "Compute SBAE",
+        "asset" : "Select a categorical image",
+        "properties": "Select property",
+        "value" : "Select value",
+        "note" : "The computation will be done over the area of interest (AOI) selected in the first tab."
+    },
+    "error" : {
+        "no_aoi" : "You have to select the Area of Interest before",
+        "non_cat_image" : "You have to select a categorical image first",
+        "non_ee_image" : "Please filter your feature collection by property and value."
+        
+    }
+}

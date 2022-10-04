@@ -1,0 +1,12 @@
+# these libs are requested to build common python libs 
+# if you are an advance user and are sure to not use them you can comment the following lines
+wheel
+Cython
+pybind11
+pre-commit
+voila
+
+# comment if you don't want to run your module with GEE in SEPAL
+git+https://github.com/openforis/earthengine-api.git@v0.1.270#egg=earthengine-api&subdirectory=python
+
+sepal_ui>=2.12.0
